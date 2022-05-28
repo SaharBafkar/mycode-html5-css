@@ -1,0 +1,56 @@
+@font-face{
+    font-family: Vazir;
+    src: url("../font/Vazirmatn-Medium.woff2") format(woff2),
+    url("../font/Vazirmatn-Medium.ttf") format("ttf");
+    font-weight:normal;
+    font-style:normal;
+    }
+    @font-face{
+        font-family:Sahel;
+        src: url("../font/Sahel-Light.eot") format("eot"),
+        url("../font/Sahel-Light.woff") format("woff"),
+        url("../font/Sahel-Light.woff2") format("woff2"),
+        url("../font/Sahel-Light.ttf") format("ttf");
+        
+    }
+@font-face{
+    font-family: Tanha;
+    src:url("../font/Tanha.eot") format("eot"),
+    url("../font/Tanha.ttf") format("ttf"),
+    url("../font/Tanha.woff") format("woff"),
+    url("../font/Tanha.woff2") format("woff2");
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tanha;
+   
+}
+   /* body{
+       background-color: rosybrown;
+       background-image: url("../img/patt2.jpg");
+       background-repeat: repeat-x;
+       background-repeat: repeat-y;
+       background-repeat:no-repeat;
+       background-position: center;
+       background-position: right top;
+
+   } */
+   
+
+
+.test{
+    font-size: 24;
+    color:brown;
+    background-color: aqua;
+}
+.bl{
+    font-size: 40;
+    color: chartreuse;
+}
+.fl{
+    color: red;
+    background-color: green;
+}
