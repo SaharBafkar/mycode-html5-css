@@ -1,0 +1,94 @@
+@font-face{
+    font-family: Vazir;
+    src: url("../font/Vazirmatn-Medium.woff2") format(woff2),
+    url("../font/Vazirmatn-Medium.ttf") format("ttf");
+    font-weight:normal;
+    font-style:normal;
+    }
+    @font-face{
+        font-family:Sahel;
+        src: url("../font/Sahel-Light.eot") format("eot"),
+        url("../font/Sahel-Light.woff") format("woff"),
+        url("../font/Sahel-Light.woff2") format("woff2"),
+        url("../font/Sahel-Light.ttf") format("ttf");
+        
+    }
+@font-face{
+    font-family: Tanha;
+    src:url("../font/Tanha.eot") format("eot"),
+    url("../font/Tanha.ttf") format("ttf"),
+    url("../font/Tanha.woff") format("woff"),
+    url("../font/Tanha.woff2") format("woff2");
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+h1{
+    font-family: Vazir;
+    font-style: oblique;
+}
+   .r {
+       font-family:Tanha;
+       font-weight: bolder;
+       font-style:italic;
+   }
+   .t{
+       font-variant: small-caps;
+   }
+   .e{
+       font-family: 'Pacifico', cursive;
+   }
+   /* body{
+       background-color: rosybrown;
+       background-image: url("../img/patt2.jpg");
+       background-repeat: repeat-x;
+       background-repeat: repeat-y;
+       background-repeat:no-repeat;
+       background-position: center;
+       background-position: right top;
+
+   } */
+   header{
+       width:100%;
+       background-image: url(../img/header.jpg);
+       height: 125px;
+       background-size: cover;
+       background-attachment: fixed;
+   }
+   .test{
+       border:10px dotted magenta;
+       background-color: aqua;
+       margin:0 0 10px 0;
+       background-clip: border-box;
+       padding: 10px;
+
+   }
+   .test1{
+    border:10px solid magenta;
+    background-color: aqua;
+    margin:0 0 10px 0;
+    background-clip:padding-box;
+    padding: 10px;
+    
+}
+.test2{
+    border:10px solid magenta;
+    background-color: aqua;
+    margin:0 0 10px 0;
+    background-clip:content-box;
+    padding: 10px;
+    font-size: 30px;
+    font-style:italic;
+    font-weight: bolder;
+    font-family: sahel;
+
+    
+}
+.test3{
+    background: palegreen url(../img/patt2.jpg) no-repeat right;
+    font: italic bolder 30px/60px sahel;
+}
