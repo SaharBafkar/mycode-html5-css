@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جلسه اول</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        h5.test1 {
+            color: rgb(78, 241, 45);
+        }
+        
+        .test2 {
+            color: darkmagenta;
+        }
+        
+        .ts {
+            font-size: 44px;
+        }
+        
+        #test4 {
+            color: mediumturquoise
+        }
+    </style> -->
+</head>
+
+<body>
+    <h5 class="test1 ts"> متن آزمایشی شماره یک </h5>
+    <h5 class="test2 ts"> متن آزمایشی شماره دو </h5>
+    <h4 class="test1"> متن آزمایشی شماره سه </h4>
+    <h2 id="test4" class="ts"> متن آزمایشی شماره چهار </h2>
+    <h5 style="color:rgb(16, 20, 250);font-size:25px ">متن آزمایشی</h5>
+
+</body>
+
+</html>
