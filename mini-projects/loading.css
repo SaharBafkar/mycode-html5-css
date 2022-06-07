@@ -1,0 +1,43 @@
+@font-face {
+  font-family: sahel;
+  src: url(../font/Sahel-Light.woff2);
+  font-weight: bolder;
+  font-style: normal;
+}
+*, 
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sahel;
+}
+body {
+  direction: rtl;
+}
+a {
+  text-decoration: none;
+}
+li,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.loading{
+    width: 80px;
+    height: 80px;
+    /* border: 10px solid transparent; */
+    /* border:10px solid #efefef; */
+    margin:200px;
+    border-radius: 100%;
+    border-top: 10px solid red;
+    border-top:2px solid red;
+    animation: loading 3s linear infinite;
+}
+@keyframes loading{
+  /* from{transform: rotate(0deg);}
+  to{transform: rotate(360deg);} */
+  0%{ transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
