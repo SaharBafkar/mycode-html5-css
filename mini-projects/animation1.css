@@ -1,0 +1,89 @@
+@font-face {
+  font-family: sahel;
+  src: url(../font/Sahel-Light.woff2);
+  font-weight: bolder;
+  font-style: normal;
+}
+*,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sahel;
+}
+body {
+  direction: rtl;
+}
+a {
+  text-decoration: none;
+}
+li,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.anime {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  margin: 100px;
+  animation-name: chcolor;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-iteration-count: 2;
+  animation-fill-mode: forwards;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-in;
+  animation-direction: reverse;
+  animation-delay: 1ms;
+}
+
+@keyframes chcolor {
+  from {
+    background-color: blue;
+    width: 150px;
+  }
+  to {
+    background-color: red;
+    width: 50px;
+  }
+}
+.anime-2 {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  /* margin: 100px; */
+  animation-name: change;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+@keyframes change {
+  0% {
+    background-color: aqua;
+    top: 0;
+    right: 0;
+  }
+  25% {
+    background-color: blue;
+    top: 0;
+    right: 200px;
+  }
+  50% {
+    background-color: chartreuse;
+    top:200px;
+    right:200px;
+  }
+  75% {
+    background-color: salmon;
+    top:200px;
+    right:0;
+  }
+  100% {
+    background-color: violet;
+    top:0;
+    right:0;
+  }
+}
